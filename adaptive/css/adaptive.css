@@ -1,0 +1,60 @@
+.wrapper {
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    background-image: url(../img/plant.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+.text {
+    font-size: 20em;
+}
+
+.text p {
+    font-size: 0.25em;
+}
+
+.img {
+    width: 50%;
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        background: none;
+        background-color: bisque;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 538px) {
+    .wrapper {
+        background-color: #60e4dd;
+        padding: 0px 5px;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+    }
+}

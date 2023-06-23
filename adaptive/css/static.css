@@ -1,0 +1,23 @@
+.wrapper {
+    min-height: 100%;
+    width: 1200px;
+    min-width: 100%;
+    position: relative;
+    background-image: url(../img/plant.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.img {
+    width: 50%;
+}
